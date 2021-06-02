@@ -1,0 +1,49 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  #nav {
+    padding: 30px;
+  }
+  
+  #nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  #nav a.router-link-exact-active {
+    color: #42b983;
+  }
+  .slide-right-enter-active,
+  .slide-right-leave-active,
+  .slide-left-enter-active,
+  .slide-left-leave-active {
+    will-change: transform;
+    transition: all 200ms;
+    position: absolute;
+  }
+   
+  .slide-right-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+   
+  .slide-right-leave-active {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+   
+  .slide-left-enter {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+   
+  .slide-left-leave-active {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  
